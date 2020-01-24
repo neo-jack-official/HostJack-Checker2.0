@@ -87,5 +87,10 @@ por defecto se instalara en:
 /usr/local/lib/
 luego copiala lo que este dentro y pegas en: 
 /Carpeta Personal/.local/lib
+
+## Sigo teniendo problemas con la libreria SOCKS
+Si no te funciona de forma directa la libreria SOCKS adjunta en este pack.
+Copia la carpeta desde URLLIB3 y pega en /Carpeta personal/.local/lib/python3.6/site-packages
+De esa forma deveria reconocerla en un 100%
 `
 
