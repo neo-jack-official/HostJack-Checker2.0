@@ -80,7 +80,6 @@ Abrir Terminal:
 ## Problemas comunes
 ## No encuentra la libreria SOCKS
 Lib socks se utiliza para conoctar a TOR.
-en python 2.7:
 * `sudo apt-get install python-pip`
 * `sudo apt-get install python3-pip`
 * `sudo apt-get install socks
