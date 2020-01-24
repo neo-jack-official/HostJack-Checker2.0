@@ -82,11 +82,12 @@ Abrir Terminal:
 Lib socks se utiliza para conoctar a TOR.
 * `sudo apt-get install python-pip`
 * `sudo apt-get install python3-pip`
-* `sudo apt-get install socks
-por defecto se instalara en:
+* `sudo apt-get install socks`
+
+Por defecto se instalara en:
 /usr/local/lib/
-luego copiala lo que este dentro y pegas en: 
-/Carpeta Personal/.local/lib
+Luego copia lo que este dentro y pegas en: 
+/Carpeta Personal/.local/lib/
 
 ## Sigo teniendo problemas con la libreria SOCKS
 Si no te funciona de forma directa la libreria SOCKS adjunta en este pack.
