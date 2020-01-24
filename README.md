@@ -77,3 +77,16 @@ Abrir Terminal:
 * `sudo apt-get install tor-geoipdb`
 * `sudo /etc/init.d/tor restart`
 
+## Problemas comunes
+## No encuentra la libreria SOCKS
+Lib socks se utiliza para conoctar a TOR.
+en python 2.7:
+* `sudo apt-get install python-pip`
+* `sudo apt-get install python3-pip`
+* `sudo apt-get install socks
+por defecto se instalara en:
+/usr/local/lib/
+luego copiala lo que este dentro y pegas en: 
+/Carpeta Personal/.local/lib
+`
+
