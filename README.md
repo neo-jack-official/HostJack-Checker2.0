@@ -1,5 +1,5 @@
 ![alt text](https://raw.githubusercontent.com/neo-jack-official/HostJack-Checker2.0/master/vista01.png)
-# HostJack-Checker 2.0 (hostjack.py3)
+# HostJack-Checker 2.0 (hostjack.py)
 # Es una Herramienta de comprobacion de estado para Servidores-Web por Neo-Jack ENE/2020
 
 ## ¿Qué es HostJack-Checker?
@@ -26,11 +26,11 @@ Python 3.6
 
 ## Como lo utiliso?
 
-Si `hostjack.py3` esta en Escritorio:
+Si `hostjack.py` esta en Escritorio:
 1) Abra terminal, Escriba `cd Escritorio`
 2) Ejecute bajo Python 3.6:
-* `python3 hostjack.py3 www.ejemplo.com` 
-* `python3 hostjack.py3 -h` para acceder al menu de ayuda.
+* `python3 hostjack.py www.ejemplo.com` 
+* `python3 hostjack.py -h` para acceder al menu de ayuda.
 
 ## Opciones de Configuracion
 
@@ -41,10 +41,10 @@ Si `hostjack.py3` esta en Escritorio:
 ## Ejemplos de comandos.
 
   Sin TOR:
-* `python hostjack.py3 www.ejemplo.com`
-* `python hostjack.py3 www.ejemplo.com -F`
+* `python hostjack.py www.ejemplo.com`
+* `python hostjack.py www.ejemplo.com -F`
   Con TOR:
-* `python hostjack.py3 www.ejemplo.com -T`
+* `python hostjack.py www.ejemplo.com -T`
 
 ## Como Instalar PYTHON 3.6 ?
 ## Linux con SUDO
