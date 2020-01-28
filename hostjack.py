@@ -22,9 +22,9 @@ def Funciones():
     print(Fore.RED + Style.BRIGHT + "...." + Style.RESET_ALL + Fore.GREEN + Style.BRIGHT + " Menu de Ayuda " + Style.RESET_ALL + Fore.RED + Style.BRIGHT + "...." + Style.RESET_ALL)
     print(Fore.YELLOW + Style.BRIGHT + " HostJack-Checker corre con Python 3.6.9\n Confirma tu version the python con: python3 -V\n " + Style.RESET_ALL)
     print(Fore.RED + Style.BRIGHT + " Modo de usar:" + Style.RESET_ALL)
-    print(Fore.GREEN + Style.BRIGHT + "Sin TOR" + Style.RESET_ALL + Fore.GREEN + Style.BRIGHT + "   <" + Style.RESET_ALL + Style.BRIGHT + " python3 hostjack.py3 www.ejemplo.com " + Style.RESET_ALL + Fore.GREEN + Style.BRIGHT + "> \n" + Style.RESET_ALL + Fore.GREEN + Style.BRIGHT + "          <" + Style.RESET_ALL + Style.BRIGHT + " python3 hostjack.py3 www.ejemplo.com -F " + Style.RESET_ALL + Fore.GREEN + Style.BRIGHT + "> \n" + Style.RESET_ALL)
-    print(Fore.GREEN + Style.BRIGHT + "Con TOR" + Style.RESET_ALL + Fore.GREEN + Style.BRIGHT + "   <" + Style.RESET_ALL + Style.BRIGHT + " python3 hostjack.py3 www.ejemplo.com -T " + Style.RESET_ALL + Fore.GREEN + Style.BRIGHT + "> " + Style.RESET_ALL)
-    print(Fore.GREEN + Style.BRIGHT + "Este Menu" + Style.RESET_ALL + Fore.GREEN + Style.BRIGHT + " <" + Style.RESET_ALL + Style.BRIGHT + " python3 hostjack.py3 -h " + Style.RESET_ALL + Fore.GREEN + Style.BRIGHT + "> " + Style.RESET_ALL + Fore.GREEN + Style.BRIGHT + "-h, --help o --ayuda" + Style.RESET_ALL)
+    print(Fore.GREEN + Style.BRIGHT + "Sin TOR" + Style.RESET_ALL + Fore.GREEN + Style.BRIGHT + "   <" + Style.RESET_ALL + Style.BRIGHT + " python3 hostjack.py www.ejemplo.com " + Style.RESET_ALL + Fore.GREEN + Style.BRIGHT + "> \n" + Style.RESET_ALL + Fore.GREEN + Style.BRIGHT + "          <" + Style.RESET_ALL + Style.BRIGHT + " python3 hostjack.py3 www.ejemplo.com -F " + Style.RESET_ALL + Fore.GREEN + Style.BRIGHT + "> \n" + Style.RESET_ALL)
+    print(Fore.GREEN + Style.BRIGHT + "Con TOR" + Style.RESET_ALL + Fore.GREEN + Style.BRIGHT + "   <" + Style.RESET_ALL + Style.BRIGHT + " python3 hostjack.py www.ejemplo.com -T " + Style.RESET_ALL + Fore.GREEN + Style.BRIGHT + "> " + Style.RESET_ALL)
+    print(Fore.GREEN + Style.BRIGHT + "Este Menu" + Style.RESET_ALL + Fore.GREEN + Style.BRIGHT + " <" + Style.RESET_ALL + Style.BRIGHT + " python3 hostjack.py -h " + Style.RESET_ALL + Fore.GREEN + Style.BRIGHT + "> " + Style.RESET_ALL + Fore.GREEN + Style.BRIGHT + "-h, --help o --ayuda" + Style.RESET_ALL)
     print("")
 
 if len(sys.argv) >= 2:
