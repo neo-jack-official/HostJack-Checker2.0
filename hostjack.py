@@ -88,7 +88,7 @@ if tor is True:
 if tor is False:
     print(Back.CYAN + Fore.YELLOW + Style.BRIGHT + "Comprobando su Informacion IP ..." + Style.RESET_ALL)
     print(Fore.GREEN + Style.BRIGHT + "Conexion TOR: " + Style.RESET_ALL + Back.RED + "Desactivado"+ Style.RESET_ALL + Fore.GREEN + Style.BRIGHT + " o " + Style.RESET_ALL + Back.RED + "NO Encontrada" + Style.RESET_ALL)
-    ipcheck_url2 = 'http://canihazip.com/s' 
+    ipcheck_url2 = 'http://icanhazip.com' 
     try:
         regular_ip = requests.get(ipcheck_url2) 
         regular_ip = str(regular_ip.text)
